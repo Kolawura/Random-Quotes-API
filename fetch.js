@@ -13,7 +13,7 @@ addEventListener("keydown",(e) => {
 function getQuote(e) {
   e.preventDefault();
 
-  fetch("quote.json")
+  fetch("https://type.fit/api/quotes")
     .then((response) => {
       response.json();
     })
