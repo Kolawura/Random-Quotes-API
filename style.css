@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background: url(/Library-img.jpg) no-repeat center center/cover;
+    background-color: blueviolet;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    background-color: transparent;
+    width: 550px;
+    height: 450px;
+}
+
+.header{
+    background-color: rgb(32, 32, 32);
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: aliceblue;
+    width: 80%;
+    margin: 2rem auto;
+    padding: 0.8rem 0;
+}
+.text-area{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem 4rem ;
+}
+
+.text-area .quotes{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.text-area .author{
+    color: red;
+    margin: 10px auto;
+    font-size: 30px;
+}
+
+.btn-area .newQ{
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    padding: 6px;
+    margin: 10px auto;
+    border-radius: 4px;
+}
+.btn-area .newQ:active{
+    background-color: rgb(26, 101, 126);
+    color: aliceblue;
+}
+
+footer{
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+}
